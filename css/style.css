@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    margin: auto;
+    padding: 20px;
+    background-color:white
+}
+.card{
+    border: none;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.product .item {
+    height: 300px;
+    margin: 30px 0;
+    padding: 30px;
+}
+.item h6{
+
+font-size: 15px;
+}
+.item .des{
+color: rgb(119, 96, 96);
+}
+.des h6:hover{
+    color: rgb(59, 59, 245);
+    cursor:pointer;
+}
+.des span:hover{
+    color: red;
+    
+    font-weight: 700;
+    cursor:pointer;
+}
+.card  a{
+    /* display: inline; */
+    width: fit-content;
+    position: absolute;
+    left: 25%;
+    top:100%
+ 
+}
+.item:hover .view{
+    top: 80%;
+      border-radius: 1rem;
+      border: none;
+    
+    transition: 0.5s;
+    
+}
+
+.view:hover {
+    background-color: rgb(227, 227, 235);
+    color: black;
+  
+}
+.card .cat {
+    top: 81%;
+    left: 5%;
+width: fit-content;
+     position: absolute; 
+     font-size: 10px;
+     padding: 3px;
+ 
+}
+
